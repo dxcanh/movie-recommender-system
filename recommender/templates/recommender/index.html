@@ -42,10 +42,14 @@
         </ul>
     </nav>
 
+    <image autoplay muted loop id="myVideo">
+        <source src="{% static 'background.jpg' %}">
+    </image>
+
     <div class="main-container">
         <div class="two">
             <h1><span class="add-text-background">Movie</span> Recommendation System</h1>
-            <p class="subheading">Check out these great movies that we recommend for you.</p>
+            <p class="subheading">Check out these great movies that we recommend for you</p>
             <form method="POST">    
                 {% csrf_token %}
                 <div class="formcontainer">

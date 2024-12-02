@@ -1,2 +1,0 @@
-export SPARK_MASTER_HOST=<your_master_host_address>
-export SPARK_LOCAL_IP=<your_local_IP>
