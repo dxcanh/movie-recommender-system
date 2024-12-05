@@ -7,18 +7,17 @@
     z-index: 10000000;
     border-radius: 50%;
     opacity: 0;
-    transform: translate(-50%, -50%);
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .cursor-dot {
-    width: 100px;
-    height: 100px;
+    width: 25px;
+    height: 25px;
     background-color: #000000;
 }
 
 .cursor-dot-outline {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     background-color: rgba(0, 0, 0, 0.45);
 }

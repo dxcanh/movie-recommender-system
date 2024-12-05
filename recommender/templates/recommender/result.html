@@ -45,11 +45,11 @@
         <h3>Movies like: {{ input_movie_name }}</h3>
     </div>
 
-    <div class="main-container">
+    <div class="main-container col-12">
         {% if recomendation_found %}
             {% if recomendation_found %}
                 {% for each_movie_dictionary in recommended_movies %}
-                    <div class="card-container">
+                    <div class="card-container col-3">
                         <h2 class="card-header"><i class="fa fa-film"></i> {{ each_movie_dictionary.movie_title }}</h2>
                         <p class="card-para">Directed By: {{ each_movie_dictionary.movie_director }}</p>
                         <p class="card-para">Release Date: {{ each_movie_dictionary.movie_release_date }}</p>
