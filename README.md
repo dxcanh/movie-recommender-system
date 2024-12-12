@@ -1,19 +1,21 @@
 # Movie Recommendation System
 
-## Quick Start
+## 1. Demo
 
-To deploy an example HDFS cluster, run:
-```
-  docker-compose up -d
-```
+In this section, we try to understand through video demo to play around the project and what all can be achieved through it.
 
-## Ensure your Hadoop cluster is running
+[Movie Recommendation System Hosted Application Demo](https://movie-recommender-system-p11s.onrender.com/)
 
-## Execute the Recommender Engine
-```
-hadoop jar recommender-engine/recommender.jar Driver movie-dataset/movie_rating_cut.txt movie-dataset/movie-titles.txt /dataDividedByUser /coOccurrenceMatrix /Normalize /Multiplication /Sum /RecommendationList /RecommendationListName /RecommendName
-```
-## Copy output file to local
-```
-hadoop fs -get / ~/Bigdata-Movie-Recommendation/output
+
+## 2. Requirements
+
+To build this project without any errors/issues, the following requirements needs to be satisfied
+
+1. Create a Virtual Environment using python>=3.8
+
+2. Install the dependencies from the requirements text file from the repository.
+
+3. 
+```shell
+python manage.py runserver
 ```
